@@ -1,0 +1,17 @@
+***************
+*** 11,17 ****
+  
+      uglify: {
+        prod: {
+-         options: { mangle: true, compress: true },
+          src: 'dist/peer.js',
+          dest: 'dist/peer.min.js'
+        }
+--- 11,17 ----
+  
+      uglify: {
+        prod: {
++         options: { mangle: true, compress: {} },
+          src: 'dist/peer.js',
+          dest: 'dist/peer.min.js'
+        }
